@@ -3,8 +3,11 @@ import { StyleSheet, Text, View,Dimensions,TouchableOpacity,} from 'react-native
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 import { Avatar,Icon} from 'react-native-elements';
 import { colors,parameters } from '../global/styles'
-import {GOOGLE_MAPS_APIKEY} from "@env";
+//import {GOOGLE_MAPS_APIKEY} from "@env";
 import { OriginContext,DestinationContext } from '../contexts/contexts';
+
+
+const GOOGLE_MAPS_APIKEY = 'AIzaSyBQivdVNxU7quHhW_ARw2VuXKmHVwXhNMk'
 
 const SCREEN_HEIGHT = Dimensions.get('window').height;
 const SCREEN_WIDTH = Dimensions.get('window').width;

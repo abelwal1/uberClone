@@ -1,7 +1,8 @@
 import React from 'react'
 import { StyleSheet } from 'react-native'
 import { OriginContextProvider,DestinationContextProvider } from './src/contexts/contexts'
-import RoootNavigator from './src/navigations/RootNavigator'
+import RoootNavigator from './src/navigations/RootNavigator';
+import 'react-native-gesture-handler'
 
 
 const App = () => {
